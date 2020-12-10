@@ -1,0 +1,44 @@
+$grid-breakpoints: ()
+
+/* NAVIGATION*/
+
+.navbar-brand img{
+    height: 4rem;
+}
+.navbar {
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+.nav-item {
+    padding:.5rem;
+}
+.nav-link.active,
+.nav-link:hover {
+    color: #FF69b4!important;
+}
+
+/* PORTFOLIO */
+
+.portLayout {
+    margin-bottom: 20px;
+}
+
+/*
+body {
+    overflow-x:hidden;
+    
+}
+
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.text-center {
+    font-family: 'Special Elite', cursive;
+}
+*/
