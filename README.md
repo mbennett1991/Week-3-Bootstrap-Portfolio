@@ -1,7 +1,7 @@
 # Week-3-Bootstrap-Portfolio# 
 
 ### Description
-In this project, I have created a Bootstrap Portfolio. I recently have been learning more about Responsive design and Bootstrap through the course, as well as through doing multiple different tutorials. Here, is a variety of some of the things I have learned.
+In this project, I have created a Bootstrap Portfolio. I recently have been learning more about Responsive design and Bootstrap through the course, as well as through doing multiple different tutorials. I was inspired to do this assignment from my curiosity to learn more about how to build mobile-first, responsive websites. Here, you can find the links to the variety of some of the things I have learned.
 
 ---
 
@@ -20,17 +20,23 @@ In this project, I have created a Bootstrap Portfolio. I recently have been lear
 ---
 <a name = "Usage"></a>
 ### Usage  
-To further show the responsiveness of the portfolio I have included screenshots of PAGE TITLE HERE to show what they look like on different screen sizes.
+To further show the responsiveness of the portfolio I have included screenshots of the portfolio page to show what they look like on different screen sizes.
 
 
-![](folder location goes here)
+![](Homework/images/screenshot1.png)
 
-![](link goes here)
+![](Homework/images/screenshot2.png)
 
 ---
 <a name = "Links"></a>
 ### Links
+Below are links to the individual pages within the portfolio.
 
+<a href = "https://mbennett1991.github.io/Week-3-Bootstrap-Portfolio/Homework/about-me.html">About Me</a>
+
+<a href = "https://mbennett1991.github.io/Week-3-Bootstrap-Portfolio/Homework/portfolio.html">Portfolio</a>
+
+<a href = "https://mbennett1991.github.io/Week-3-Bootstrap-Portfolio/Homework/contact.html">Contact Page</a>
  
 ---
 <a name = "Credits"></a>  
