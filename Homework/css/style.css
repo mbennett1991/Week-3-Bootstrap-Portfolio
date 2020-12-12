@@ -1,5 +1,11 @@
 $grid-breakpoints: ()
 
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
 /* NAVIGATION*/
 
 .navbar-brand img{
@@ -20,6 +26,29 @@ $grid-breakpoints: ()
     color: #FF69b4!important;
 }
 
+/*   INDEX   */
+
+#carousel {
+    box-shadow: 0 1rem 1rem rgba (0, 0, 0, .1);
+}
+
+.carousel-inner {
+    max-height:35rem!important;
+}
+
+.carousel-item-prev,
+.carousel-item-next,
+.carousel-item.active{
+    transition: transform 1.2s ease;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
 /*   ABOUT ME   */
 #me {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1)
@@ -32,7 +61,41 @@ $grid-breakpoints: ()
     margin-bottom: 20px;
 }
 
+/*   CONTACT   */
+
+.contact-body{
+    background-image: url("../images/Post-mad-bills.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-color: darkgrey;
+}
+
+
+
+.contact-form{
+    background: rgba(0,0,0, .6);
+    color: white;
+    margin-top: 150px;
+}
+
+
+/*@media only screen and (max-width: 700px) {
+    .contact-body {
+        background-image: url("../images/Post-mad-bills.JPG");
+        background-position: center-center;
+        background-size: cover;
+    }}
+
+
 /*   FOOTER   */
+
+.page-footer:active,
+.page-footer:hover {
+    color: #FF69b4!important;
+}
+
 
 /*
 body {
