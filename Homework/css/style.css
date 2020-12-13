@@ -1,9 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+
 .header {
     font-family: 'Amatic SC', cursive, sans-serif;
 }
 
 p{
     font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 100%;
+}
+
+#index-body {
+    height: 100%!important;
+}
+
+#index-html {
+    height: 100%!important;
 }
 
 /* NAVIGATION*/
@@ -29,10 +46,6 @@ p{
 
 #carousel {
     box-shadow: 0 1rem 1rem rgba (0, 0, 0, .1);
-}
-
-.carousel-inner {
-    max-height:40rem!important;
 }
 
 .carousel-item-prev,
@@ -82,8 +95,11 @@ img {
 /*   FOOTER   */
 
 footer {
-    margin-top: 30px;
+    /*margin-top: 30px;
+    margin-bottom: 0px;*/
     color: white;
+    position: relative;
+    bottom: 0;
 }
 
 .page-footer:active,
